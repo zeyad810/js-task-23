@@ -1,4 +1,4 @@
-function basicCalc(num1, num2, operator) {
+function basicCalc(num1, num2, operator ="+") {
     switch (operator) {
         case "+":
             return num1 + num2;
@@ -13,7 +13,7 @@ function basicCalc(num1, num2, operator) {
             return num1 / num2;
             break;
 
-        default: return num1 + num2
+        default: " somethings goes wrong "
             break;
     }
 }
